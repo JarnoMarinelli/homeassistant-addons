@@ -42,8 +42,8 @@ RUN apk --update add \
         php-zip \
         curl
 
-EXPOSE 8888
-EXPOSE 8899
+EXPOSE 7510
+EXPOSE 7550
 
 COPY run.sh /
 COPY tls.conf /etc/nginx/snippets/
